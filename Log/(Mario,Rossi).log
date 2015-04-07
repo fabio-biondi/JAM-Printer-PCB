@@ -1,0 +1,78 @@
+Log file per (Mario,Rossi)
+0- Inizializzazione comportamento.
+
+
+1- Start del comportamento, attesa messaggio iniziale.
+
+
+2- Preparo REQUEST del prototipo.
+
+
+3- Invio REQUEST.
+
+
+Performativa: QUERY_IF
+Sender: (Mario,Rossi)
+Receiver: (,Printer PCB)
+Content: 
+Puoi stampare uno schema elettrico su circuito PCB?
+ExtraArgument:
+null
+
+
+4- Invita REQUEST.
+
+
+Performativa: QUERY_IF
+Sender: (Mario,Rossi)
+Receiver: (,Printer PCB)
+Content: 
+Puoi stampare uno schema elettrico su circuito PCB?
+ExtraArgument:
+null
+
+
+5- Attendo risposta.
+
+
+6- Trovata risposta.
+
+
+Performativa: REFUSE
+Sender: (Stampante_CO2,Printer PCB)
+Receiver: (Mario,Rossi)
+Content: 
+Performativa non accettata
+ExtraArgument:
+
+Performativa: QUERY_IF
+Sender: (Mario,Rossi)
+Receiver: (,Printer PCB)
+Content: 
+Puoi stampare uno schema elettrico su circuito PCB?
+ExtraArgument:
+null
+
+
+7- La risposta non e' una agree eseguo una done.
+
+
+Performativa: REFUSE
+Sender: (Stampante_CO2,Printer PCB)
+Receiver: (Mario,Rossi)
+Content: 
+Performativa non accettata
+ExtraArgument:
+
+Performativa: QUERY_IF
+Sender: (Mario,Rossi)
+Receiver: (,Printer PCB)
+Content: 
+Puoi stampare uno schema elettrico su circuito PCB?
+ExtraArgument:
+null
+
+
+END- Esecuguita dispose.
+
+

@@ -1,0 +1,78 @@
+Log file per (Mercoledi,Adams)
+0- Inizializzazione comportamento.
+
+
+1- Start del comportamento, attesa messaggio iniziale.
+
+
+2- Preparo REQUEST del prototipo.
+
+
+3- Invio REQUEST.
+
+
+Performativa: REQUEST
+Sender: (Mercoledi,Adams)
+Receiver: (,Printer PCB)
+Content: 
+Vendete piastre PCB vergini per stampa casalinga?
+ExtraArgument:
+null
+
+
+4- Invita REQUEST.
+
+
+Performativa: REQUEST
+Sender: (Mercoledi,Adams)
+Receiver: (,Printer PCB)
+Content: 
+Vendete piastre PCB vergini per stampa casalinga?
+ExtraArgument:
+null
+
+
+5- Attendo risposta.
+
+
+6- Trovata risposta.
+
+
+Performativa: NOT_UNDERSTOOD
+Sender: (Stampante_CO2,Printer PCB)
+Receiver: (Mercoledi,Adams)
+Content: 
+REQUEST non compresa
+ExtraArgument:
+
+Performativa: REQUEST
+Sender: (Mercoledi,Adams)
+Receiver: (,Printer PCB)
+Content: 
+Vendete piastre PCB vergini per stampa casalinga?
+ExtraArgument:
+null
+
+
+7- La risposta non e' una agree eseguo una done.
+
+
+Performativa: NOT_UNDERSTOOD
+Sender: (Stampante_CO2,Printer PCB)
+Receiver: (Mercoledi,Adams)
+Content: 
+REQUEST non compresa
+ExtraArgument:
+
+Performativa: REQUEST
+Sender: (Mercoledi,Adams)
+Receiver: (,Printer PCB)
+Content: 
+Vendete piastre PCB vergini per stampa casalinga?
+ExtraArgument:
+null
+
+
+END- Esecuguita dispose.
+
+

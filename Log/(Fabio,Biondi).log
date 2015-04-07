@@ -1,0 +1,123 @@
+Log file per (Fabio,Biondi)
+0- Inizializzazione comportamento.
+
+
+1- Start del comportamento, attesa messaggio iniziale.
+
+
+2- Preparo REQUEST del prototipo.
+
+
+3- Invio REQUEST.
+
+
+Performativa: REQUEST
+Sender: (Fabio,Biondi)
+Receiver: (,Printer PCB)
+Content: 
+Puoi stampare uno schema elettrico su circuito PCB?
+ExtraArgument:
+null
+
+
+4- Invita REQUEST.
+
+
+Performativa: REQUEST
+Sender: (Fabio,Biondi)
+Receiver: (,Printer PCB)
+Content: 
+Puoi stampare uno schema elettrico su circuito PCB?
+ExtraArgument:
+null
+
+
+5- Attendo risposta.
+
+
+6- Trovata risposta.
+
+
+Performativa: AGREE
+Sender: (Stampante_Laser,Printer PCB)
+Receiver: (Fabio,Biondi)
+Content: 
+REQUEST accettata
+ExtraArgument:
+
+Performativa: REQUEST
+Sender: (Fabio,Biondi)
+Receiver: (,Printer PCB)
+Content: 
+Puoi stampare uno schema elettrico su circuito PCB?
+ExtraArgument:
+null
+
+
+8- La risposta e' una agree, prepara la conferma.
+
+
+Performativa: AGREE
+Sender: (Stampante_Laser,Printer PCB)
+Receiver: (Fabio,Biondi)
+Content: 
+REQUEST accettata
+ExtraArgument:
+
+Performativa: REQUEST
+Sender: (Fabio,Biondi)
+Receiver: (,Printer PCB)
+Content: 
+Puoi stampare uno schema elettrico su circuito PCB?
+ExtraArgument:
+null
+
+
+9- Invio la conferma.
+
+
+Performativa: PROPOSAL
+Sender: (Fabio,Biondi)
+Receiver: (Stampante_Laser,Printer PCB)
+Content: 
+Stampa schema elettrico di un prototipo sviluppato da me.
+ExtraArgument:
+null
+
+
+10- Inviata la conferma.
+
+
+Performativa: PROPOSAL
+Sender: (Fabio,Biondi)
+Receiver: (Stampante_Laser,Printer PCB)
+Content: 
+Stampa schema elettrico di un prototipo sviluppato da me.
+ExtraArgument:
+null
+
+
+11- Attendo il messaggio con conferma presa in carico ordine da (Stampante_Laser,Printer PCB)
+
+
+12- Controllo se arrivato il messaggio con conferma presa in carico ordine da (Stampante_Laser,Printer PCB)
+
+
+13- Leggo il messaggio con conferma presa in carico ordine da (Stampante_Laser,Printer PCB)
+
+
+14- Letto il messaggio con conferma presa in carico ordine da (Stampante_Laser,Printer PCB)
+
+
+Performativa: INFORM
+Sender: (Stampante_Laser,Printer PCB)
+Receiver: (Fabio,Biondi)
+Content: 
+ATTESA DI SCHEMA DA STAMPARE. numero ordine: 1
+ExtraArgument:
+null
+
+
+END- Esecuguita dispose.
+
+
